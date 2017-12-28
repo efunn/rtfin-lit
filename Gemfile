@@ -5,6 +5,6 @@ source 'https://rubygems.org' do
     gem 'jekyll-scholar'
 end
 
-git 'https://github.com/efunn/jekyll-scholar-extras.git' do
-    gem 'jekyll-scholar-extras'
-end
+# git 'https://github.com/efunn/jekyll-scholar-extras.git' do
+#     gem 'jekyll-scholar-extras'
+# end

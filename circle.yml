@@ -1,4 +1,8 @@
 dependencies:
   post:
-    - bundle install
+    - git clone https://github.com/efunn/jekyll-scholar-extras.git
+    - cd jekyll-scholar-extras
+    - gem build jekyll-scholar-extras.gemspec 
+    - gem install jekyll-scholar-extras-0.1.3.gem  
+    - cd ..
     - bundle exec jekyll build
