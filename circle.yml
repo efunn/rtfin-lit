@@ -5,4 +5,4 @@ dependencies:
     # - cp -r $GEM_HOME/gems/jekyll-scholar-extras-0.1.3/ ./vendor/bundle/ruby/2.3.0/gems/
     # - ls ./vendor/bundle/ruby/2.3.0/gems/
     # - ls $GEM_HOME/gems/
-    - bundle exec jekyll build
+    - bundle exec jekyll build --verbose
