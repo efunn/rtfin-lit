@@ -1,7 +1,8 @@
 #!/bin/sh
 
-# abort the script if there is a non-zero error
-set -e
+# setup user
+git config --global user.email 'utrewirelab@gmail.com' > /dev/null 2>&1
+git config --global user.name 'rtfin-admin' > /dev/null 2>&1
 
 # stage any changes and new files
 git add -A
