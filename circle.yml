@@ -1,9 +1,8 @@
 dependencies:
   post:
-    - ls ./vendor/bundle/ruby/2.3.0/
-    - ls ./vendor/bundle/ruby/2.3.0/gems
     - git clone https://github.com/efunn/jekyll-scholar-extras.git
     - gem build ./jekyll-scholar-extras/jekyll-scholar-extras.gemspec 
     - gem install ./jekyll-scholar-extras-0.1.3.gem  
-    - cp $GEM_HOME/gems/jekyll-scholar-extras-0.1.3/ ./vendor/bundle/ruby/2.3.0/gems/
+    - cp -r $GEM_HOME/gems/jekyll-scholar-extras-0.1.3/ ./vendor/bundle/ruby/2.3.0/gems/
+    - ls ./vendor/bundle/ruby/2.3.0/gems
     - bundle exec jekyll build
